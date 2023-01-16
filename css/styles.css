@@ -1,0 +1,366 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+}
+
+
+h2 {
+    font-family: Oregano, cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* Headers */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee77;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0 1rem #00000044;
+}
+
+#header-img {
+    height: 5rem;
+    margin: 2rem 0 2rem -2rem;
+    border-bottom-right-radius: 2rem ;
+    border-top-right-radius: 2rem;
+}
+
+#nav-bar {
+    font-size: 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    margin-right: 3rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #00000044;
+}
+
+#hero h1 {
+    font-size: 6.8rem;
+    margin: 0 auto;
+    font-family: 'Oregano', cursive;
+}
+
+#hero p {
+    font-size: 1.8rem;
+}
+
+#hero a {
+    text-decoration: none;
+    border: 0.2rem solid black;
+    color: black;
+    padding: 1rem;
+    font-size: 1.8rem;
+    border-radius: 4rem;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: backgroun-color 0.12s ease-in;
+    transition: color 0.2s ease-in, box-shadow 0.2s ease-in;
+}
+
+#hero a:hover {
+    background-color: black;
+    color: white;
+    transition: backgroun-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+#hero div, #hero figure {
+    padding: 1.5rem;
+    margin: 0;
+}
+
+#hero-img {
+    width: 40rem;
+    border-radius: 1rem;
+    transition: box-shadow 0.2s ease-in;
+}
+
+#hero-img:hover {
+    box-shadow: 0 0.4rem 1rem #00000045;
+    transition: box-shadow 0.2s ease-in;
+}
+
+#hero figure figcaption {
+    text-align: right;
+    padding-right: 2rem;
+    color: #999;
+}
+
+/* Features Section*/
+
+#features {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #00000044;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.feature {
+    width: 20rem;
+    height: 30rem;
+    font-size: 1.4rem;
+    margin: 1rem;
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 3rem;
+    text-align: center;
+    border: 0.1rem solid #00000044;
+    transition: box-shadow 0.2s ease-in, border 0.2s ease-in;
+}
+
+.feature:hover {
+    box-shadow: 0 0 1.5rem #00000033;
+    border: 0.1rem solid #ffffffff;
+    transition: box-shadow 0.2s ease-in, border 0.2s ease-in;
+}
+
+.feature img {
+    width: 10rem;
+}
+
+.feature p {
+    padding-bottom: 1rem;
+}
+
+/* how it works */
+
+#how-it-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid #00000044;
+}
+
+#how-it-works h2 {
+    width: 100%;
+}
+
+#video {
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+/* Pricing */
+#pricing-heading {
+    margin-bottom: 0;
+}
+
+#pricing-text {
+    font-size: 1.5em;
+    max-width: 50rem;
+    text-align: center;
+    margin: auto;
+    padding: 0.6rem 2rem;
+}
+
+#pricing {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #00000044;
+}
+
+.plan {
+    padding: 0;
+    width: 25rem;
+    height: 27rem;
+    border: 1px solid #000;
+    border-radius: 3rem;
+    margin: 1rem;
+    border: 0.1rem solid #00000044;
+    transition: box-shadow 0.2s ease-in;
+    box-sizing: border-box;
+}
+
+.plan:hover {
+    box-shadow: 0 0 1.5rem #00000033;
+    border: none;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.plan h3 {
+    margin-top: 0;
+    padding: 0.8rem 0;
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    border-radius: 3rem 3rem 0 0;
+}
+
+.plan p {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.plan ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan ul li {
+    font-size: 1.32rem;
+    padding: 0.5rem;
+}
+
+/* Get Started */
+
+#get-started {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #00000044;
+}
+
+#get-started p {
+    font-size: 1.6rem;
+}
+
+#form {
+    text-align: center;
+    margin: auto;
+}
+
+#form input[type="email"] {
+    padding: 1rem;
+    margin: 0;
+    border-radius: 2rem 0 0 2rem;
+    border: 1px solid #00000033;
+    font-size: 1.6rem;
+}
+
+#form input[type="submit"] {
+    padding: 1rem;
+    margin-left: -0.2rem;
+    border-radius: 0 2rem 2rem 0;
+    border: 1px solid #00000033;
+    font-size: 1.6rem;
+}
+
+/* Footer */
+
+footer {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+#brand {
+    margin: auto;
+}
+
+#brand img {
+    width: 30rem;
+}
+
+#copyright {
+    font-size: 1.1rem;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 0.4rem;
+    padding: 1rem;
+    border-radius: 100%;
+    transition: background-color 0.2s ease-in;
+}
+
+footer ul li:hover {
+    background-color: #00000012;
+    transition: background-color 0.2s ease-in;
+}
+
+footer ul li a img {
+    width: 3rem;
+}
+
+/*
+* End of Styling
+* Media Queries
+*/
+
+/* Hero Section */
+@media (max-width: 1048px) {
+    /* Center aligns text when the image and text section come into one column */
+    #hero {
+        text-align: center;
+    }
+}
+
+@media (max-width: 431px) {
+    #hero h1 {
+        font-size: 4.8rem;
+    }
+    #hero p {
+        font-size: 1.5rem;
+    }
+    #hero-img {
+        width: 30rem;
+    }
+}
+
+/* Features Section */
+@media (max-width: 1048px) {
+    #features {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+}
+
+@media (max-width: 845px) {
+    #features {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 561px) {
+    .feature {
+        width: 30rem;
+    }
+}
